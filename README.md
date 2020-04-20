@@ -1,3 +1,5 @@
-# gitea-rss
+# 简介
 
-生成rss总的rss的代码。
+用来生成rss总的rss的代码。
+
+
