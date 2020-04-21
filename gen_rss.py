@@ -40,7 +40,7 @@ def gen_rss(items):
         lastBuildDate=datetime.datetime.now(),
         items=items_rss
     )
-    rss.write_xml(open(file_path, 'w'))
+    rss.write_xml(open(file_path, 'w', encoding='utf-8'), encoding='utf-8')
 
 
 def get_items():
@@ -80,5 +80,4 @@ if __name__ == "__main__":
     # main
     print('begin')
     items = get_items()
-    print(items)
     gen_rss(items)
