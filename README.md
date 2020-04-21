@@ -2,6 +2,9 @@
 
 用来生成rss总的rss的代码。
 
+结果样例：
+- https://git.zeekling.cn/rss.xml
+
 ## 使用
 
 - 安装依赖
