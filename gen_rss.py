@@ -13,7 +13,7 @@ code_url = "https://git.zeekling.cn/"
 
 resp_url = code_url + "api/v1/repos/search"
 
-update_days = 5
+update_days = 15
 
 params = {
     'sort': 'updated',
